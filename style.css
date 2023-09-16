@@ -45,7 +45,9 @@ nav ul {
     display: flex;
 }
 
-
+.more{
+    background-color: goldenrod;
+}
 nav li {
     display: inline;
     margin-right: 20px; /* Adjust spacing between menu items */
@@ -54,6 +56,10 @@ nav li {
 nav a {
     text-decoration: none;
     color: black;
+}
+
+nav a:hover{
+    text-shadow: -1px 0 whitesmoke, 0 1px white, 1px 0 white, 0 -1px
 }
 
 

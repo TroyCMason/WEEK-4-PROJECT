@@ -9,7 +9,7 @@ let selectedYearFilter = "";
 let searchPerformed = false;
 
 function showSkeleton() {
-  movieListEl.innerHTML = `Loading...`;
+  movieListEl.innerHTML = `Let's see...`;
 }
 
 function hideSkeleton() {
@@ -76,14 +76,6 @@ yearFilterSelect.addEventListener("change", function () {
   const selectedYearFilter = this.value;
   delaySearchMovies(searchQuery, selectedYearFilter);
 });
-
-
-
-
-
-
-
-
 
 searchInput.addEventListener("input", function () {
   searchQuery = this.value.trim();
